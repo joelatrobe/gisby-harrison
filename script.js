@@ -7,7 +7,7 @@
 
   var NAV = [
     { href: "about.html", label: "About", key: "about" },
-    { href: "services.html", label: "Services", key: "services", children: [
+    { href: "services/index.html", label: "Services", key: "services", children: [
       { href: "services/corporate.html", label: "Corporate" },
       { href: "services/commercial-property.html", label: "Commercial Property" },
       { href: "services/employment-law.html", label: "Employment Law" },
@@ -72,7 +72,7 @@
       '<div class="footer-col"><h5>Firm</h5><ul>' +
       '<li><a href="' + P + 'about.html">About &amp; approach</a></li>' +
       '<li><a href="' + P + 'team.html">Our team</a></li>' +
-      '<li><a href="' + P + 'services.html">Services</a></li>' +
+      '<li><a href="' + P + 'services/index.html">Services</a></li>' +
       '<li><a href="' + P + 'contact.html">Contact &amp; location</a></li></ul></div>' +
       '<div class="footer-col"><h5>Contact</h5><ul>' +
       '<li><a href="tel:01707878300">01707 878 300</a></li>' +

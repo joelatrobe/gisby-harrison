@@ -9,7 +9,3 @@ services:
       - path: /*
         name: X-Content-Type-Options
         value: nosniff
-    routes:
-      - type: rewrite
-        source: /services
-        destination: /services.html
