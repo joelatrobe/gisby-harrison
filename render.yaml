@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: gisby-harrison
+    runtime: static
+    buildCommand: "echo No build step required for static site"
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+    routes:
+      - type: rewrite
+        source: /services
+        destination: /services.html
